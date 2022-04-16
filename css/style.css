@@ -171,6 +171,8 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .word-wrap { word-wrap: break-word}
 .text-transform-none {text-transform:none !important}
 
+.justify { text-align: justify; text-justify: inter-word;}
+
 /* ===================================
     Icon
 ====================================== */
