@@ -293,6 +293,9 @@ i { color: #9a9a9a; margin: 0 3px}
 .padding-nine { padding:6% 0}
 .padding-left-right { padding-right:6% !important; padding-left:6% !important;}
 .padding-two-bottom { padding-bottom: 2% !important; }
+.padding-four-bottom { padding-bottom: 4% !important; }
+.padding-two-top { padding-top: 2% !important; }
+.padding-four-top { padding-top: 4% !important; }
 .padding-left-right-px { padding: 0 15px;}
 .no-padding-left-right { padding-left:0 !important; padding-right:0 !important}
 .no-padding-section { padding:0px !important;}
