@@ -7,7 +7,8 @@
   <!--favicon-->
   <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-57x57.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">  <meta name="msapplication-TileColor" content="#da532c">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+  <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <!-- CSS-->
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -163,7 +164,7 @@
         <div class="header__mobile mobile-canvas">
           <nav class="mobile-canvas__nav navigation">
             <ul class="navigation__list">
-              <li class="navigation__item navigation__item--current">
+              <li class="navigation__item ">
                 <a class="navigation__link" href="index.html">Home<span class="navigation__link-icon">
                     <svg width="12" height="13">
                       <use xlink:href="#link-arrow"></use>
@@ -172,7 +173,7 @@
                 </a>
               </li>
               <li class="navigation__item">
-                <a class="navigation__link animsition-link" href="about-me.html">About Me<span class="navigation__link-icon">
+                <a class="navigation__link animsition-link navigation__item--current" href="about-me.html">About Me<span class="navigation__link-icon">
                     <svg width="12" height="13">
                       <use xlink:href="#link-arrow"></use>
                     </svg>
@@ -205,129 +206,90 @@
       </div>
     </header>
     <main>
-      <section class="hero">
-        <div class="hero__bg __js_parallax">
-          <img src="assets/images/bg3.jpg" width="1920" height="1080" alt="">
-        </div>
-        <div class="hero__container container container--size-large">
-          <header class="hero__header">
-            <div class="container container--size-large">
-              <h1 class="hero__title">Cloud Infra DevOps<span>Agile/Scrum Master</span>
-              </h1>
-            </div>
-          </header>
-          <div class="hero__content">
-            <div class="hero__vertical vertical-logo">
-              <div class="vertical-logo__layer vertical-logo__layer--yellow">
-                <svg width="55" height="242">
-                  <use xlink:href="#vertical-logo"></use>
-                </svg>
-              </div>
-              <div class="vertical-logo__layer vertical-logo__layer--black">
-                <svg width="55" height="242">
-                  <use xlink:href="#vertical-logo"></use>
-                </svg>
-              </div>
-            </div>
+      <article class="about-us">
+        <div class="first-banner about-us__banner">
+          <div class="container container--size-large">
+            <h1 class="first-banner__title heading heading--size-large">Salena is
+              <br>
+              <span>Senior Analyst</span>
+              <br>
+              at Accenture
+            </h1>
           </div>
         </div>
-      </section>
-      <section class="features">
-        <div class="features__container container container--size-large">
-          <div class="row">
-            <div class="col-12 col-md-0 col-lg-4"></div>
-            <div class="col-12 col-md-12 col-lg-8">
-              <div class="features__description" data-aos="fade-up">Salena is a Senior Analyst at Accenture. Her 5 years’ experience has been focused on Software Development, DevOps, Cloud Infrastructure, Data Engineering, Release Management, and Agile Transformation.
-                She is interested in Cloud Technology including Infrastructure Implementation and Big Data Platforms.</div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 col-md-4 col-lg-4 col-sm-12">
-              <a class="features__card features__card--size-large feature-card" data-aos="fade-up">
-                <span class="feature-card__image">
-                  <img src="assets/images/img-sq3.jpg" width="100%"  alt="Cloud">
-                </span>
-                <span class="feature-card__caption">Cloud
-                  <br>Infrastructure
-                </span>
-              </a>
-            </div>
-            <div class="col-4 col-md-4 col-lg-4 col-sm-12">
-              <a class="features__card features__card--size-large feature-card" data-aos="fade-up">
-                <span class="feature-card__image">
-                  <img src="assets/images/img-sq1.jpg" width="100%" height="529" alt="DevOps">
-                </span>
-                <span class="feature-card__caption">Agile/DevOps
-                  <br>Engineering
-                </span>
-              </a>
-            </div>
-            <div class="col-4 col-md-4 col-lg-4 col-sm-12">
-              <a class="features__card features__card--size-large feature-card" data-aos="fade-up">
-                <span class="feature-card__image">
-                  <img src="assets/images/img-sq2.jpg" width="100%" height="529" alt="Backend">
-                </span>
-                <span class="feature-card__caption">Backend
-                  <br>Development
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="works">
-        <div class="works__container container container--size-large">
-          <header class="works__header">
+        <section class="about-video-section about-us__stat">
+          <div class="about-video-section__container container container--size-large">
             <div class="row">
-              <div class="col-8" data-aos="fade-up">
-                <h2 class="works__title">
-                  <span>Look at</span>My PORTFOLIOS
-                </h2>
+              <div class="about-video-section__main col-8 col-md-8 col-sm-8 col-xs-12">
+                <div class="about-section__text aos-init aos-animate" data-aos="fade-up">Salena (aka Blossom) has 5 years professional experience, focused on Software Development, DevOps, Cloud Infrastructure, Data Engineering, Release Management, and Agile Transformation.
+                  <br/>
+                  <br/>
+                  Salena is interested in Cloud Technology including Infrastructure Implementation and Big Data Platforms. She would like to grow more experience in Cloud Data Engineering and Infrastructure Implementation.
+                  <br/>
+                  <br/>
+                  Salena holds Professional Scrum Master I and AWS Solution Architect Associate.
+                </div>
+                <div class="meta__info">
+                  <div class="meta__info-item" data-aos="fade-up">
+                    <span>
+                      Latest Business Title
+                    </span>
+                    <span>Tech Arch Delivery Senior Analyst</span>
+                  </div>
+                  <div class="meta__info-item" data-aos="fade-up">
+                    <span>
+                      Latest Career Level
+                    </span>
+                    <span>Senior Analyst</span>
+                  </div>
+                  <div class="meta__info-item" data-aos="fade-up">
+                    <span>
+                      Latest Job Function
+                    </span>
+                    <span>DevOps & Cloud Engineering</span>
+                  </div>
+                  <div class="meta__info-item" data-aos="fade-up">
+                    <span>
+                      Year of Work Experience
+                    </span>
+                    <span>5 years</span>
+                  </div>
+                  <div class="meta__info-item" data-aos="fade-up">
+                    <span>
+                      Industries
+                    </span>
+                    <span>Financial Service, Banking, IT Consulting</span>
+                  </div>
+                  <div class="meta__info-item" data-aos="fade-up">
+                    <span>
+                      Highest Education
+                    </span>
+                    <span>Bachelor of Science - MS</span>
+                  </div>
+  
+                </div>
+
               </div>
-              <div class="col-4 text-md-right" data-aos="fade-up">
-                <a class="works__more arrow-link--white arrow-link" href="projects.html">
-                  <span class="arrow-link__text">View all</span>
-                  <span class="arrow-link__icon">
-                    <svg width="75" height="75">
-                      <use xlink:href="#link-arrow"></use>
-                    </svg>
-                  </span>
-                </a>
+          
+              <div class="col-12 col-md" data-aos="fade-up">
+          
               </div>
+              
             </div>
-          </header>
-          <div class="works__carousel carousel swiper-container __js_carousel" data-aos="fade-up">
-            <div class="carousel__navigation">
-              <button class="carousel__btn carousel__btn--prev" type="button">Prev</button>
-              <button class="carousel__btn carousel__btn--next" type="button">Next</button>
-            </div>
-            <div class="swiper-wrapper">
-              <a class="carousel__item carousel-card swiper-slide" href="project-cms.html">
-                <img src="assets/images/p2.jpg" width="662" height="510" alt="Content Management System">
-                <span class="carousel-card__bottom">
-                  <span class="carousel-card__title">Content Management System</span>
-                  <span class="carousel-card__icon">
-                    <svg width="29" height="29">
-                      <use xlink:href="#link-arrow"></use>
-                    </svg>
-                  </span>
-                </span>
-              </a>
-              <a class="carousel__item carousel-card swiper-slide" href="project-restaurant.html">
-                <img src="assets/images/p1.jpg" width="662" height="510" alt="Restaurant Management System">
-                <span class="carousel-card__bottom">
-                  <span class="carousel-card__title">Restaurant Management System</span>
-                  <span class="carousel-card__icon">
-                    <svg width="29" height="29">
-                      <use xlink:href="#link-arrow"></use>
-                    </svg>
-                  </span>
-                </span>
-              </a>
-            </div>
+            <div class="row" style="margin-top: 30px;">
+              <div class="col-md-2 col-sm-3 col-xs-4" style="display: none;"  data-aos="fade-up"><a href="https://www.credly.com/earner/earned/badge/e9bc67bc-858e-4f85-9f8f-337eec5c0a00" target="_blank"><img src="assets/images/cert-azure-dea.png" class="xs-img-full" width="75%" alt="Azure Fundamental"></a></div>
+              <div class="col-md-2 col-sm-3 col-xs-4" style="display: none;"  data-aos="fade-up"><a href="https://www.credly.com/earner/earned/badge/d003605e-6f19-43d2-b1e6-1f0bf367a90a" target="_blank"><img src="assets/images/cert-gcp-ca.png" class="xs-img-full" width="75%" alt="PSM I"></a></div>
+              <div class="col-md-2 col-sm-3 col-xs-4" style="display: none;"  data-aos="fade-up"><a href="https://www.credly.com/earner/earned/badge/3c1a7d68-3685-4b48-842c-c0fa72df47be" target="_blank"><img src="assets/images/cert-gcp-de.png" class="xs-img-full" width="75%" alt="AWS"></a></div>
+              <div class="col-md-2 col-sm-3 col-xs-4"  data-aos="fade-up"><a href="https://www.credly.com/badges/e9bc67bc-858e-4f85-9f8f-337eec5c0a00" target="_blank"><img src="assets/images/cert-azure-fund.png" class="xs-img-full" width="75%" alt="Azure Fundamental"></a></div>
+              <div class="col-md-2 col-sm-3 col-xs-4"  data-aos="fade-up"><a href="https://www.credly.com/badges/d003605e-6f19-43d2-b1e6-1f0bf367a90a" target="_blank"><img src="assets/images/cert-psm-i.png" class="xs-img-full" width="75%" alt="PSM I"></a></div>
+              <div class="col-md-2 col-sm-3 col-xs-4"  data-aos="fade-up"><a href="https://www.credly.com/badges/3c1a7d68-3685-4b48-842c-c0fa72df47be" target="_blank"><img src="assets/images/cert-aws-saa.png" class="xs-img-full" width="75%" alt="AWS"></a></div>
+
           </div>
-        </div>
-      </section>
+          </div>
+
+        </section>
+        
+      </article>
     </main>
     <footer class="footer __js_fixed-footer">
       <div class="footer__container container container--size-large">
@@ -343,10 +305,10 @@
           <div class="footer__menu">
             <div class="footer__title">Quick Links</div>
             <ul class="footer__menu-list">
-              <li class="footer__menu-item footer__menu-item--current">
+              <li class="footer__menu-item">
                 <a class="footer__menu-link">Home</a>
               </li>
-              <li class="footer__menu-item">
+              <li class="footer__menu-item footer__menu-item--current">
                 <a class="footer__menu-link" href="about-me.html">About Me</a>
               </li>
               <li class="footer__menu-item">
